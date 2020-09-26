@@ -4,32 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java/java.js"></script>
 </head>
 <body>
-    <h1>AKAN NAME</h1>
-    <p>This website help people to know the akan names based on their birthday.<br>
-        It allows user to enter her or his birthday and select their gent<br>
-        and after the program will display thier akan names.
-    </p>
+    <header>
+        <nav>
+            <ul>
+                <!-- <li><img src="image/akanap.png" alt=""></li> -->
+                <li><a href="#home">home</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="first">
+        <h1>AKAN NAME</h1>
+        <p id="p1">This website help people to know the akan names based on their birthday.It allows user to enter her or his <br> and select their gender
+            and after the program will display thier akan names.
+        </p>
         <h2>Complete the following form to see your akan name.</h2>
-        <p> N.B:All birthday dates must be in figures</p>
-        <form>
-            <label for="day">Day (between 1 and 31):</label>
-            <input type="number" id="day" placeholder="Day" min="1" max="31" required><br>
-            <label for="month">Month (between 1 and 12):</label>
-            <input type="number" id="month" placeholder="Month" min="1" max="12" required><br>
-            <label for="year">Year:</label>
-            <input type="number" id="year" placeholder="Year" required><br>
-            <label for="">Choose your gender</label><br>
-            <input type="radio" id="male" name="gender" value="male">
-            <label for="male">Male</label><br>
-            <input type="radio" id="female" name="gender" value="female">
-            <label for="female">Female</label><br>
-            <input type="radio" id="other" name="gender" value="other">
-            <label for="other">Other</label><br>
-            <input type="submit" value="Submit">
-            <input type="reset">
-            <p id="output">Your Akan name is:</p>
+        <p id="p2"> N.B:All birthday dates must be in figures</p>
+    <div class="wrapper">
+        <form onsubmit="return false">
+        <div class="form-area" id="registration">
+            <div class="msg-area">
+                <label for="msg">gender</label>
+
+                <select name="sex" id="sex" required>
+                    <option value="">None</option>
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                </select>
+
+            </div>
+            <div class="details-area">
+
+                <label for="day">Day (between 1 and 31):</label>
+                <input type="number" id="day" placeholder="Day" min="1" max="31" required>
+
+                <label for="month">Month (between 1 and 12):</label>
+                <input type="number" id="month" placeholder="Month" min="1" max="12" required>
+
+                <label for="year">Year:</label>
+                <input type="number" id="year" placeholder="Year" required>
+
+                <button type="submit" value="Submit" onclick="calc();">
+                <button type="reset">reset</button>
+                Answer: <input type = "text" id = "result">
+            </div>
+        </div>
         </form>
+    </div>
 </body>
 </html>
