@@ -5,6 +5,7 @@ Here is the link to the akan naming webage:
 ---
 ## PROJECT DISCRIPTION
 ---
+![](images/screenshoot.png)
 This project allows a user to enter his or her user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
 
 Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
@@ -17,7 +18,15 @@ A STUDENT FROM MORINGA SCHOOL RWANDA
 ---
 Fork this repository after clone this repository to go on your local git and after open it in your vscode and make same changes.
 --- 
+<<<<<<< HEAD
 ## BDD (Behaviour,Driven,Development).
+=======
+## BDD (Behaviour, Driven,Development)
+---
+Display form Entering data and gender| Display error message if data input and gender is blank| Clear form and rest the messege on click|
+ |--------------------|---------------------|------------------|
+ |- Input: User's birthday, - Input: user's gender , - output users's day of birth and akan name|- Input: blank, Output: Error messege | - Input: Click Rest buttom, - Outpot: Clears and rest the form|
+>>>>>>> ad3f21b8854b9b3b34ba0dc3a059a0dea7bdb07b
 ---
  |Display form Entering data and gender| Display error message if data input and gender is blank| Clear form and rest the messege on click|
  |--------------------|---------------------|------------------|
@@ -59,4 +68,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+<<<<<<< HEAD
 ---
+=======
+>>>>>>> ad3f21b8854b9b3b34ba0dc3a059a0dea7bdb07b
