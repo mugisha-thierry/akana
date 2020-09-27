@@ -38,6 +38,7 @@ nav li {
 .wrapper{
     width: 800px;
     margin: 5% auto;
+    margin-top: 0%;
 }
 .form-area{
     display: flex;
@@ -73,6 +74,7 @@ nav li {
 .details-area button{
     padding: 1em;
     margin-bottom: 1em;
+    border-radius: 50%;
 }
 .details-area button{
     background: tomato;
@@ -117,4 +119,11 @@ output{
 }
 #p1 , #p2 {
     color: brown;
+}
+.bre {
+    color: yellow;
+    font-size: 20px;
+}
+.fas,.fab{
+    color: white;
 }
