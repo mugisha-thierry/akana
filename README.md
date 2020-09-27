@@ -26,7 +26,6 @@ Fork this repository after clone this repository to go on your local git and aft
 Display form Entering data and gender| Display error message if data input and gender is blank| Clear form and rest the messege on click|
  |--------------------|---------------------|------------------|
  |- Input: User's birthday, - Input: user's gender , - output users's day of birth and akan name|- Input: blank, Output: Error messege | - Input: Click Rest buttom, - Outpot: Clears and rest the form|
->>>>>>> ad3f21b8854b9b3b34ba0dc3a059a0dea7bdb07b
 ---
  |Display form Entering data and gender| Display error message if data input and gender is blank| Clear form and rest the messege on click|
  |--------------------|---------------------|------------------|
