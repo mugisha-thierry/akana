@@ -18,7 +18,6 @@ A STUDENT FROM MORINGA SCHOOL RWANDA
 ---
 Fork this repository after clone this repository to go on your local git and after open it in your vscode and make same changes.
 --- 
-<<<<<<< HEAD
 ## BDD (Behaviour,Driven,Development).
 =======
 ## BDD (Behaviour, Driven,Development)
@@ -67,6 +66,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-<<<<<<< HEAD
 ---
 =======
