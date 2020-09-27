@@ -1,7 +1,8 @@
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     background-image: url(horse.jpg);
     -Webkit-background-size: cover;
     background-size: cover;
@@ -29,48 +30,55 @@ nav li {
     padding-top: 0%;
     margin-top: 0%;
 }
-.wrapper{
+
+.wrapper {
     width: 800px;
     margin: 5% auto;
     margin-top: 0%;
 }
-.form-area{
+
+.form-area {
     display: flex;
     background-color: rgba(46, 44, 44, 0.8);
     border-radius: 25px;
     padding: 1.9em;
     padding-top: 0%;
 }
-.msg-area{
+
+.msg-area {
     display: flex;
     flex-direction: column;
     order: 2;
 }
-.msg-area > radio {
+
+.msg-area>radio {
     flex: 1;
     min-width: 1.8em;
     background: transparent;
     color: #fff;
     padding: 15px;
-
 }
-.details-area{
+
+.details-area {
     flex: 1;
     order: 1;
     margin-right: 2em;
 }
-.details-area input{
+
+.details-area input {
     width: 100%;
     background: transparent;
     border-radius: 40px;
     color: white;
 }
-.details-area button{
+
+.details-area button {
     padding: 1em;
     margin-bottom: 1em;
     border-radius: 50%;
 }
-.details-area button{
+
+.details-area button {
     background: tomato;
     color: white;
     border: 0;
@@ -79,28 +87,31 @@ nav li {
     font-size: 16px;
     text-transform: uppercase;
 }
-label{
+
+label {
     color: white;
     text-transform: uppercase;
     line-height: 40px;
     font-family: 'Courier New', Courier, monospace;
 }
-h1{
+
+h1 {
     color: yellow;
     margin-left: 40%;
     padding-left: 0.5em;
     margin-top: 0%;
     margin-bottom: 0%;
     display: flex;
-
 }
-h2{
+
+h2 {
     color: yellow;
     padding: 0%;
     margin-top: 0%;
     margin-bottom: 0%;
 }
-output{
+
+output {
     background: tomato;
     color: white;
     border: 0;
@@ -109,13 +120,16 @@ output{
     font-size: 16px;
     text-transform: uppercase;
 }
-#p1 , #p2 {
+
+#p1, #p2 {
     color: brown;
 }
+
 .bre {
     color: yellow;
     font-size: 20px;
 }
-.fas,.fab{
+
+.fas, .fab {
     color: white;
 }

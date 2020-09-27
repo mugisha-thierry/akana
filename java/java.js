@@ -2,18 +2,12 @@ function calc() {
     var day = parseInt(document.getElementById("day").value);
     var month = parseInt(document.getElementById("month").value);
 
-    if((day<0) || (day>31)){
+    if ((day < 0) || (day > 31)) {
         alert("Day is out of range")
     }
-    if((month<0) || (month>12)){
+    if ((month < 0) || (month > 12)) {
         alert("Month is out of range")
     }
-
-
-
-
-
-
     var array = [0, 3, 3, 6, 1, 4, 6, 2, 5, 0, 3, 5];
     var arrayDay = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     var akanMen = ['Kwasi', 'Kwadwo', 'Kwabena', 'Kwaku', 'Yaw', 'Kofi', 'Kwame'];

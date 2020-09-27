@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,51 +9,58 @@
     <script src="java/java.js"></script>
     <script src="https://kit.fontawesome.com/116e3bc624.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="first">
         <h1>AKAN NAME</h1>
-        <p id="p1">This website helps people to know their akan names based on their birthday.It allows user to enter her or his birthday<br> and select their gender
-            and after the program will display the day he or she was born and the akan name based on gender. It only works in years from 1500 to 2399.
+        <p id="p1">This website helps people to know their akan names based on their birthday.It allows user to enter
+            her or his birthday<br> and select their gender
+            and after the program will display the day he or she was born and the akan name based on gender. It only
+            works in years from 1500 to 2399.
         </p>
         <h2>Complete the following form to see your akan name.</h2>
         <p id="p2"> N.B:All birthday dates must be in figures</p>
-    <div class="wrapper">
-        <form onsubmit="return false">
-        <div class="form-area" id="registration">
-            <div class="msg-area">
-                <label for="msg">gender</label>
+        <div class="wrapper">
+            <form onsubmit="return false">
+                <div class="form-area" id="registration">
+                    <div class="msg-area">
+                        <label for="msg">gender</label>
 
-                <select name="sex" id="sex" required>
-                    <option value="">None</option>
-                    <option value="male">male</option>
-                    <option value="female">female</option>
-                </select>
+                        <select name="sex" id="sex" required>
+                            <option value="">None</option>
+                            <option value="male">male</option>
+                            <option value="female">female</option>
+                        </select>
 
-            </div>
-            <div class="details-area">
+                    </div>
+                    <div class="details-area">
 
-                <label for="day">Day (between 1 and 31):</label>
-                <input type="number" id="day" placeholder="Day" min="1" max="31" required>
+                        <label for="day">Day (between 1 and 31):</label>
+                        <input type="number" id="day" placeholder="Day" min="1" max="31" required>
 
-                <label for="month">Month (between 1 and 12):</label>
-                <input type="number" id="month" placeholder="Month" min="1" max="12" required>
+                        <label for="month">Month (between 1 and 12):</label>
+                        <input type="number" id="month" placeholder="Month" min="1" max="12" required>
 
-                <label for="year">Year:</label>
-                <input type="number" id="year" placeholder="Year" required>
+                        <label for="year">Year:</label>
+                        <input type="number" id="year" placeholder="Year" required>
 
-                <button type="submit" value="Submit" onclick="calc();">Submit</submit>
-                <button type="reset">reset</button>
-                <input type = "text" id = "result">
-            </div>
+                        <button type="submit" value="Submit" onclick="calc();">Submit</submit>
+                            <button type="reset">reset</button>
+                            <input type="text" id="result">
+                    </div>
+                </div>
+            </form>
         </div>
-        </form>
-    </div>
-    <section id="Contact">
-    <i class="fas fa-envelope fa-2x"></i><a href="http://email.com"><em class="bre">thierrymugis@gmail.com</em></a></i>
-    <i class="fab fa-instagram-square fa-2x"></i></i><a href="http://instagram.com"><em class="bre">m_thierry_rwanda</em></a></i>
-    <i class="fab fa-facebook fa-2x"></i><a href="http://facebook.com"><em class="bre">Mugisha Thierry</em></a></i>
-    <img src="images/ghana.png" alt="">
-</section>
+        <section id="Contact">
+            <i class="fas fa-envelope fa-2x"></i><a href="http://email.com"><em
+                    class="bre">thierrymugis@gmail.com</em></a></i>
+            <i class="fab fa-instagram-square fa-2x"></i></i><a href="http://instagram.com"><em
+                    class="bre">m_thierry_rwanda</em></a></i>
+            <i class="fab fa-facebook fa-2x"></i><a href="http://facebook.com"><em class="bre">Mugisha
+                    Thierry</em></a></i>
+            <img src="images/ghana.png" alt="">
+        </section>
 
 </body>
+
 </html>
